@@ -1,18 +1,20 @@
+<!--
+ * @Description: App
+ * @Author: chenju
+ * @Date: 2021-05-26 09:58:49
+ * @LastEditors: chenju
+ * @LastEditTime: 2021-05-26 14:09:44
+-->
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <router-view></router-view>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
-
+import { defineComponent } from 'vue';
 export default defineComponent({
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-})
+  name: 'App'
+});
 </script>
 
 <style>
@@ -20,8 +22,5 @@ export default defineComponent({
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
